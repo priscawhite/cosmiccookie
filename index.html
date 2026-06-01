@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🥠 Cosmic Cookie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <main class="main-container">
+        <div class="fadeInFadeOut" id="welcome-container">
+            <h1 id="welcome-title">Welcome to Cosmic Cookie<br>🥠</h1>
+            <h2 id="welcome-subtitle">Like a fortune cookie, but written by the universe</h2>
+        </div>
+        <div class="fadeIn" id="nameForm-container" style="display:none">
+            <form id="nameForm">
+                <h2 id="promptName">Introduce yourself.<br>Tell me your name</h2>
+                <input id="getName" type="text" placeholder="Enter your name">
+                <button id="submitName" type="submit" href="#">Submit</button>
+            </form>
+        </div>
+        <div class="fadeInFadeOut" id="greetUser" style="display:none"><h2></h2></div>
+        <div class="fadeIn" id="detailForm-container" style="display:none">
+            <form id="detailForm">
+                <h2 id="promptDetails">When were you born?</h2>
+                <input id="getBirthDate" type="date">
+                <input id="getBirthTime" type="time">
+                <button id="submitDetails" type="submit" href="#">Submit</button>
+            </form>
+        </div>
+        <div class="fadeIn" id="horoscope"></div>
+    </main>
+</body>

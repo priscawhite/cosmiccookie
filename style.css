@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/background.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+    color: #FEE0FF;
+    font-family: "Courgette", cursive;
+    font-size: larger;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+        from {
+            text-shadow:
+            0 0 20px #BF46C3,
+            0 0 26px #BF46C3,
+            0 0 36px #BF46C3;
+        }
+        to {
+            text-shadow:
+            0 0 24px #BF46C3,
+            0 0 41px #BF46C3,
+            0 0 66px #BF46C3;
+        }
+    }
+
+@keyframes slideInUp {
+        from {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+.main-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      min-height: 100vh; /* Adjust as needed */
+}
+
+.fadeInFadeOut {
+      animation: fadeInOut 3s ease-in-out forwards;
+    }
+
+    @keyframes fadeInOut {
+      0% { opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+.fadeIn {
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #BF46C3;
+    color: #FEE0FF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #BF46C3;
+    box-shadow: #BF46C3 0px 0px 10px, #BF46C3 0px 0px 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input {
+    background-color: #171217;
+    color: #BF46C3;
+    border: #BF46C3 1px solid;
+}
+
+#greetUser {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    animation: pulse 2s infinite alternate;
+}
+
+#welcome-container, #nameForm-container, #detailForm-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+#horoscope {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+}
