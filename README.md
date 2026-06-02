@@ -185,21 +185,15 @@ http://localhost:8000
 
 ### Phase 2
 
-* Store user preferences
-* Create horoscope history
-* Add theme customization
+* AI-generated horoscope content
+* Daily horoscope subscriptions
+* Email notifications
 
 ### Phase 3
 
-* AI-generated horoscope content
-* User authentication
-* Cloud-hosted serverless architecture
-
-### Phase 4
-
-* Daily horoscope subscriptions
-* Email notifications
 * Social sharing features
+* Store user preferences
+* User authentication
 
 ---
 
