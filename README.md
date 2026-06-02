@@ -218,12 +218,9 @@ This project is designed to provide hands-on experience with:
 
 Cloud Engineer • AI Enthusiast • Aspiring Full-Stack Developer
 
-Building practical projects that combine cloud technologies, AI, automation, and modern web development.
+*From code to cloud--powering modern applications with serverless precision*
 
 ---
 
 ## License
-
-This project is licensed under the MIT License.
-
-Feel free to use, modify, and distribute this project for educational and personal use.
+This project is intended for educational and portfolio demonstration purposes.
